@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans&display=swap');
 .header{
     background: url(./img/gradient.jpg) ;
     background-repeat: no-repeat;
@@ -10,6 +10,7 @@
     align-items: center;
     font-size: xx-large;
     font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Fira Sans', sans-serif;
     flex-flow: column nowrap;
 }
 
@@ -31,6 +32,7 @@
     display: flex;
     justify-content: center;
     font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     flex-flow: column nowrap;
 }
 
@@ -39,6 +41,7 @@
     justify-content: center;
     align-items: center;
     font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     flex-flow: column nowrap;
     height: 500px;
 }
@@ -68,4 +71,27 @@
 
 .card-p{
     padding-top: 5%;
+}
+
+.info-work{
+    background: url(./img/gradient.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+            font-family: 'Fira Sans', sans-serif;
+       
+}
+
+.work-exp{
+    background: linear-gradient(#e66465, #9198e5);
+    padding: 2%;
+}
+
+.work-exp > h4{
+    margin-bottom:  8%;
 }
