@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.header{
+    background: url(./img/gradient.jpg) ;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: 'Bebas Neue', sans-serif;
+    flex-flow: column nowrap;
+}
+
+.header > div {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    width: 20%;
+}
+
+
+
+.header > p{
+    font-size: medium;
+}
